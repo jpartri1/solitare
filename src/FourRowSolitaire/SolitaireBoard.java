@@ -94,7 +94,7 @@ public class SolitaireBoard extends JFrame
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
-        //setIconImage(new ImageIcon(getClass().getResource("/images/logo.png")).getImage());
+        setIconImage(new ImageIcon(getClass().getResource("/images/logo.png")).getImage());
 
         setVisible(true);
 

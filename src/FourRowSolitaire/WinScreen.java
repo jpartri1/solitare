@@ -109,7 +109,7 @@ public class WinScreen extends JFrame
             try
             {
                 //Doesn't work as a .jar
-                File songDir = new File(getClass().getResource("sounds/win/").toURI());
+                File songDir = new File(getClass().getResource("/sounds/win/").toURI());
                 String[] songs = songDir.list();
                 boolean retry = true;
 
@@ -145,7 +145,7 @@ public class WinScreen extends JFrame
                 }
             }
 
-            URL filelocation = getClass().getResource("sounds/win/" + song);
+            URL filelocation = getClass().getResource("/sounds/win/" + song);
 
             try
             {
